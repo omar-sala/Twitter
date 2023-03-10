@@ -1,0 +1,577 @@
+* {
+  margin-top: 0%;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body{
+  /* width: 5000px; */
+  height: 100%;
+  /* float: left; */
+}
+
+/* classes of the first column */
+/* .column1 { */
+  /* position: fixed; */
+  /* margin-top: 2%; */
+  /* float: left; */
+  /* width: 22%; */
+/* } */
+
+.siz{
+  font-size: 35px;
+}
+
+.sizh{
+  padding: 2.5px;
+  font-size: 23px;
+}
+
+.fa {
+  padding: 10px;
+  text-decoration: none;
+  margin: 25px 50px;
+}
+
+.fa:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.fa-twitter {
+  margin-top: 0;
+  position: fixed;
+  border-radius: 50%;
+  color: rgb(99, 152, 250);
+}
+
+.fa-home {
+  position: fixed;
+  border-radius: 30px;
+  color: rgb(2, 2, 2);
+  cursor: pointer;
+}
+
+.fa-hashtag {
+  position: fixed;
+  border-radius: 30px;
+  color: rgb(2, 2, 2);
+}
+
+.fa-bell {
+  position: fixed;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.fa-envelope {
+  padding-left: 10px;
+  position: fixed;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.fa-bookmark {
+  padding-left: 15px;
+  position: fixed;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.fa-list {
+  padding-left: 10px;
+  position: fixed;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.fa-user {
+  padding-left: 16px;
+  position: fixed;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.fa-ellipsis-h {
+  padding-left: 15px;
+  position: fixed;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.button{
+  position: fixed;
+  background-color: rgb(75, 156, 248);
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  margin: 4px 18px;
+  width: 18%;
+  border-radius: 30px;
+}
+
+.button:hover{
+  background-color: rgb(92, 149, 253);
+  cursor: pointer;
+}
+
+.nicon{
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+
+#popup{
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.close{
+  outline: none;
+  margin-top: 30px;
+  width: 46%;
+  /* background-color: rgb(245, 220, 166); */
+}
+
+.iconclose{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+/* ******************************* */
+
+/* classes of the second column */
+/* .column2 {
+  width: 10%;
+} */
+
+.bord{
+  border-style: solid;
+  border-width: 0 0.5px 0 0.5px;
+  border-color: rgb(230, 230, 230);
+}
+
+.home{
+  /* width: 100%; */
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0%;
+  right: 405px;
+  left: 290px;
+  border-style: solid;
+  border-width: 0 0 0.5px 0;
+  border-color: rgb(230, 230, 230);
+}
+
+.homeword{
+  font-size: 20px;
+  /* position: fixed; */
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: sans-serif;
+}
+
+.stform{
+  width: 100%;
+  height: 70px;
+}
+
+.search input[type=text] {
+  padding: 6px;
+  font-size: 20px;
+  width: 85%;
+  height: 60px;
+  border: none;
+}
+
+.img{
+  float: left;
+  margin-top: 4px;
+  margin-left: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.img:hover{
+  opacity: 0.8;
+}
+
+.tweetButton {
+  background-color: rgb(111, 206, 250);
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 30px;
+  margin-left: 82%;
+}
+
+.sticons{
+  width: 100%;
+  padding: 0px 80px;
+}
+
+.comment1{
+  margin-left: 25px;
+  /* margin-top: 8px; */
+  /* margin-left: 80px; */
+  /* width: 18px; */
+  height: 18px;
+}
+
+.showtweet{
+  height: 50px;
+  text-align: center;
+  color: rgb(50, 159, 209);
+  font-family: sans-serif;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+  border-color: rgb(230, 230, 230);
+  margin-top: 10px;
+}
+
+.show{
+  font-size: 15px;
+  padding: 16px;
+}
+
+.showtweet:hover{
+  background-color: #f1f1f1;
+}
+
+.hover_div{
+  height: 100%;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 0 0 0.5px 0;
+  border-color: rgb(230, 230, 230);
+}
+
+.hover_div:hover{
+  background-color: rgb(238, 238, 238);
+}
+
+.parg{
+  margin-top: 2px;
+  height: 100%;
+  width: 88%;
+  margin-bottom: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+.sty{
+  margin-top: 7px;
+}
+
+.name{
+  font-family: sans-serif;
+}
+
+.pos_body{
+  width: 500px;
+  height: 500px;
+  margin-left: 80px;
+  border-radius: 15px;
+}
+
+.comment{
+  margin-top: 8px;
+  margin-left: 80px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.retweet{
+  margin-top: 8px;
+  margin-left: 110px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.atr3{
+  margin-top: 8px;
+  margin-left: 110px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.atr4{
+  margin-top: 8px;
+  margin-left: 120px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.atr4:hover{
+  background-color: blueviolet;
+}
+
+.iconlik{
+  /* padding: 8px; */
+  text-decoration: none;
+  color: black;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.name2{
+  color: rgb(88, 88, 88);
+  font-family: sans-serif;
+}
+
+.name:hover{
+  text-decoration: underline;
+}
+
+.posttext{
+  width: 80%;
+  margin-left: 15%;
+}
+
+.postvideo{
+  /* width: 100%; */
+  width: 510px;
+  height: 500px;
+  margin-left: 75px;
+  border-radius: 15px;
+}
+/* *************************************** */
+
+/* classes of the column3 */
+
+.column1 {
+  /* position: fixed; */
+  /* width: 30%; */
+  /* padding: 0 0 0 881px; */
+
+  /* position: fixed; */
+  /* margin: 0.1px; */
+  /* float: left; */
+  /* width: 22%; */
+
+  /* margin-top: 0; */
+  /* float: left; */
+  /* width: 47%; */
+
+  float: left;
+  width: 22%;
+}
+
+.column2{
+  float: left;
+  width: 47%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column3{
+  float: right;
+  width: 31%;
+}
+
+.incolumn3 {
+  margin: 20px 0 0 30px;
+  width: 350px;
+  background-color: rgb(237, 241, 241);
+  border-radius: 15px;
+  /* position: fixed; */
+}
+
+.margin{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.new{
+  margin-top: 10px;
+}
+
+.trend{
+  cursor: pointer;
+}
+
+.trend:hover{
+  background-color: rgb(214, 219, 219);
+}
+
+.trendname{
+  padding-left: 68%;
+}
+
+.topnav {
+  /* margin-top: 0%; */
+  /* position: fixed; */
+  padding: 4px 0 0 30px;
+  /* width: 100%; */
+  /* height: 50px; */
+  overflow: hidden;
+  /* background-color: aqua; */
+  /* color: blue; */
+}
+
+.home2{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  border-style: solid;
+  border-width: 0 0 0 0;
+  /* border-color: rgb(230, 230, 230); */
+}
+
+.topnav input[type=text] {
+  overflow: hidden;
+  position: fixed;
+  padding: 6px;
+  width: 350px;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(237, 241, 241);
+}
+
+/* column 1 */
+
+.acount{
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  /* border: none; */
+  font-size: 20px;
+  margin: 12px 18px;
+  /* width: 19%; */
+  height: 65px;
+  border-radius: 30px;
+  margin-top: 95px;
+}
+
+.acount:hover{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+.imga{
+  float: left;
+  margin: 15px 0px 0px 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* cursor: pointer; */
+}
+
+.parga{
+  /* margin-top: 2px; */
+  /* height: 100%; */
+  /* width: 88%; */
+  /* margin-bottom: 5px; */
+  float: right;
+  /* cursor: pointer; */
+}
+
+.stya{
+  padding: 12px 80px 0 10px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.stay2{
+  margin-top: 0%;
+  padding-left: 10px;
+  /* padding: 0 0 0 10px; */
+  padding-bottom: 30px;
+  color: rgb(88, 88, 88);
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.follow{
+  margin: 20px 0 0 30px;
+  width: 350px;
+  /* position: fixed; */
+  /* margin: 110% 0 0 0; */
+  background-color: rgb(237, 241, 241);
+  /* background-color: rgb(185, 36, 36); */
+  /* width: 99%; */
+  border-radius: 15px;
+  /* clear: both; */
+}
+
+.acountf{
+  /* position: fixed; */
+  background-color: rgb(237, 241, 241);
+  /* background-color: rgb(255, 255, 255); */
+  /* border: none; */
+  font-size: 20px;
+  /* margin: 12px 18px; */
+  /* width: 19%; */
+  height: 65px;
+  /* border-radius: 30px; */
+  /* margin-top: 95px; */
+}
+
+.acountf:hover{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+.pargaf{
+  /* margin-top: 2px; */
+  /* height: 100%; */
+  /* width: 88%; */
+  /* margin-bottom: 5px; */
+  float: left;
+  /* cursor: pointer; */
+}
+
+.styf{
+  padding: 10px 0 0 10px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.stay2f{
+  /* margin-top: 2%; */
+  /* padding-left: 10px; */
+  padding: 0 0 0 10px;
+  /* padding: 0 0 0 10px; */
+  /* padding-bottom: 30px; */
+  color: rgb(88, 88, 88);
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.tweetButtonf{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  font-size: 15px;
+  margin-top: 15px;
+  border-radius: 30px;
+  margin-left: 65px;
+}
+
+.tweetButtonf:hover{
+  background-color: rgb(19, 18, 18);
+  cursor: pointer;
+}
+
+.omar{
+  color: red;
+  background-color: rgb(211, 125, 125);
+  cursor: pointer;
+}
