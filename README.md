@@ -6,7 +6,8 @@ It mimics the UI and basic interactions of Twitter, but **does not include a bac
 ## Screenshot
 
 ![Main Page](assets/home.png)
-![Edit Page](asses/edit.png)
+![Add Tweet](assets/tweet.png)
+![Edit Page](assets/edit.png)
 ![Profile Page](assets/profile.png)
 
 ## Features
