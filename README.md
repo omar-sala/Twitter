@@ -5,7 +5,9 @@ It mimics the UI and basic interactions of Twitter, but **does not include a bac
 
 ## Screenshot
 
-![Twitter Clone Screenshot](https://github.com/username/projectname/blob/main/assets/screenshot.png?raw=true)
+![Main Page](assets/home.png)
+![Edit Page](asses/edit.png)
+![Profile Page](assets/profile.png)
 
 ## Features
 
@@ -22,5 +24,6 @@ It mimics the UI and basic interactions of Twitter, but **does not include a bac
 ## Notes
 
 This project is for learning purposes and practice only.
+
 - Backend functionality like posting tweets or authentication is **not implemented**.
 - This was my **first web development project**, helping me learn HTML, CSS, JavaScript, and project structure.
